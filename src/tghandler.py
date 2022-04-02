@@ -25,8 +25,8 @@ class TGHandler:
 
             res_code = response.status_code
             reason_phrase = response.reason_phrase
-            if response.headers['Content-type'] == 'applications/json':
-                body = response['content'].decode()
+            if response.headers['Content-type'] == 'application/json':
+                body = response.content.decode()
 
             data = {
                 'error': {
@@ -43,5 +43,4 @@ class TGHandler:
             pass
 
         return response
-
 

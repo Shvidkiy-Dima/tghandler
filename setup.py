@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tghandler",                     # This is the name of the package
-    version="1.0",                        # The initial release version
+    version="1.1",                        # The initial release version
     author="Dmitriy Shvidkiy",                     # Full name of the author
     description="Package for telegram bot - @Django_Error_Bot",
     long_description=long_description,      # Long description read from the the readme file
